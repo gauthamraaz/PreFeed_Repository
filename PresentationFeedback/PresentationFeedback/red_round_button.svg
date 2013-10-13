@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="500" height="500" id="svg2" version="1.1" inkscape:version="0.48.1 " sodipodi:docname="button.svg">
+  <defs id="defs4">
+    <linearGradient inkscape:collect="always" id="linearGradient3891">
+      <stop style="stop-color:#ff8080;stop-opacity:1" offset="0" id="stop3893"/>
+      <stop style="stop-color:#ffd5d5;stop-opacity:0;" offset="1" id="stop3895"/>
+    </linearGradient>
+    <linearGradient id="linearGradient3799">
+      <stop id="stop3801" offset="0" style="stop-color:#cccccc;stop-opacity:1"/>
+      <stop style="stop-color:#000000;stop-opacity:1" offset="0.5" id="stop3805"/>
+      <stop id="stop3803" offset="1" style="stop-color:#b3b3b3;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient inkscape:collect="always" id="linearGradient3755">
+      <stop style="stop-color:#ff5000;stop-opacity:1" offset="0" id="stop3757"/>
+      <stop style="stop-color:#780000;stop-opacity:1" offset="1" id="stop3759"/>
+    </linearGradient>
+    <radialGradient inkscape:collect="always" xlink:href="#linearGradient3755-7" id="radialGradient3761-1" cx="360" cy="380.93359" fx="360" fy="380.93359" r="354.78571" gradientUnits="userSpaceOnUse"/>
+    <linearGradient inkscape:collect="always" id="linearGradient3755-7">
+      <stop style="stop-color:#ff7159;stop-opacity:1" offset="0" id="stop3757-4"/>
+      <stop style="stop-color:#782121;stop-opacity:1" offset="1" id="stop3759-0"/>
+    </linearGradient>
+    <filter inkscape:collect="always" id="filter3847" color-interpolation-filters="sRGB">
+      <feGaussianBlur inkscape:collect="always" stdDeviation="3.5428571" id="feGaussianBlur3849"/>
+    </filter>
+    <filter inkscape:collect="always" id="filter3925" color-interpolation-filters="sRGB">
+      <feGaussianBlur inkscape:collect="always" stdDeviation="9.8027192" id="feGaussianBlur3927"/>
+    </filter>
+    <linearGradient inkscape:collect="always" xlink:href="#linearGradient3799" id="linearGradient3935" gradientUnits="userSpaceOnUse" x1="472.81271" y1="167.57883" x2="466.45236" y2="849.43781"/>
+    <linearGradient inkscape:collect="always" xlink:href="#linearGradient3799" id="linearGradient3937" gradientUnits="userSpaceOnUse" x1="106.10146" y1="497.12341" x2="791.04138" y2="505.02658"/>
+    <radialGradient inkscape:collect="always" xlink:href="#linearGradient3755" id="radialGradient3939" gradientUnits="userSpaceOnUse" cx="431.96896" cy="503.70416" fx="431.96896" fy="503.70416" r="354.78571"/>
+    <linearGradient inkscape:collect="always" xlink:href="#linearGradient3891" id="linearGradient3941" gradientUnits="userSpaceOnUse" x1="1410.5038" y1="228.07771" x2="1410.173" y2="478.59555"/>
+    <linearGradient inkscape:collect="always" xlink:href="#linearGradient3891" id="linearGradient3947" gradientUnits="userSpaceOnUse" x1="1410.5038" y1="228.07771" x2="1410.173" y2="478.59555"/>
+  </defs>
+  <sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="0.35" inkscape:cx="433.4091" inkscape:cy="-51.428571" inkscape:document-units="px" inkscape:current-layer="layer1" showgrid="false" borderlayer="false" inkscape:window-width="1366" inkscape:window-height="712" inkscape:window-x="-4" inkscape:window-y="-4" inkscape:window-maximized="1"/>
+  <g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1" transform="translate(0,-552.36218)">
+    <path transform="matrix(-0.60774443,0,0,0.60774443,518.35271,490.33194)" d="m 802.85715,509.50504 a 354.28571,354.28571 0 1 1 -708.571414,0 354.28571,354.28571 0 1 1 708.571414,0 z" sodipodi:ry="354.28571" sodipodi:rx="354.28571" sodipodi:cy="509.50504" sodipodi:cx="448.57144" id="path3807" style="fill:url(#linearGradient3935);fill-opacity:1;fill-rule:evenodd;stroke:none" sodipodi:type="arc"/>
+    <path sodipodi:type="arc" style="fill:url(#linearGradient3937);fill-opacity:1;fill-rule:evenodd;stroke:none;filter:url(#filter3847)" id="path2985-9" sodipodi:cx="448.57144" sodipodi:cy="509.50504" sodipodi:rx="354.28571" sodipodi:ry="354.28571" d="m 802.85715,509.50504 a 354.28571,354.28571 0 1 1 -708.571414,0 354.28571,354.28571 0 1 1 708.571414,0 z" transform="matrix(0.55392661,-0.01659571,0.01659571,0.55392661,-11.195301,525.19676)"/>
+    <path sodipodi:type="arc" style="fill:url(#radialGradient3939);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" id="path2985" sodipodi:cx="448.57144" sodipodi:cy="509.50504" sodipodi:rx="354.28571" sodipodi:ry="354.28571" d="m 802.85715,509.50504 a 354.28571,354.28571 0 1 1 -708.571414,0 354.28571,354.28571 0 1 1 708.571414,0 z" transform="matrix(0.48769118,0,0,0.48769118,26.971592,551.49968)"/>
+    <path sodipodi:type="arc" style="fill:url(#linearGradient3947);fill-opacity:1;fill-rule:evenodd;stroke:none;filter:url(#filter3925)" id="path3889" sodipodi:cx="1410.173" sodipodi:cy="371.51938" sodipodi:rx="202.0305" sodipodi:ry="119.198" d="m 1612.2035,371.51938 a 202.0305,119.198 0 1 1 -404.061,0 202.0305,119.198 0 1 1 404.061,0 z" transform="matrix(0.56836872,0.02157661,-0.02356518,0.62075146,-549.49284,451.74426)"/>
+  </g>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Open Clip Art Library</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>Red Button</dc:title>
+        <dc:date>2011-05-25T08:43:32</dc:date>
+        <dc:description/>
+        <dc:source>http://openclipart.org/detail/140365/red-button-by-cameltech</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>cameltech</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>button</rdf:li>
+            <rdf:li>clip art</rdf:li>
+            <rdf:li>clipart</rdf:li>
+            <rdf:li>red</rdf:li>
+            <rdf:li>red button</rdf:li>
+            <rdf:li>round button</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>
