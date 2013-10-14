@@ -18,43 +18,43 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="15 pts" textAlignment="center" minimumFontSize="17" clearButtonMode="always" id="Wx9-Er-GVY">
+                            <textField opaque="NO" clipsSubviews="YES" tag="900" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" clearButtonMode="always" id="Wx9-Er-GVY">
                                 <rect key="frame" x="276" y="28" width="90" height="30"/>
-                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad" keyboardAppearance="alert" returnKeyType="done"/>
                             </textField>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="States thesis" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Yjq-fw-Ue6">
-                                <rect key="frame" x="25" y="163" width="237" height="32"/>
+                                <rect key="frame" x="25" y="163" width="116" height="32"/>
                                 <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="21"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Topic relavant  to audience" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="DlQ-Wh-dnD">
-                                <rect key="frame" x="25" y="192" width="237" height="57"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Topic relavant  to audience" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="DlQ-Wh-dnD">
+                                <rect key="frame" x="25" y="193" width="179" height="57"/>
                                 <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="20"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Establishes credibility" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8SK-Sh-nTT">
-                                <rect key="frame" x="397" y="130" width="196" height="32"/>
+                                <rect key="frame" x="376" y="130" width="180" height="32"/>
                                 <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="20"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Previews main points" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jmV-5q-VmF">
-                                <rect key="frame" x="397" y="166" width="183" height="32"/>
+                                <rect key="frame" x="376" y="166" width="183" height="32"/>
                                 <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="20"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Orients audience" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="yDE-gz-1hX">
-                                <rect key="frame" x="397" y="206" width="183" height="32"/>
+                                <rect key="frame" x="376" y="206" width="183" height="32"/>
                                 <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="20"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="KCC-Cf-RKP">
-                                <rect key="frame" x="263" y="124" width="29" height="30"/>
+                            <button opaque="NO" tag="1000" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="KCC-Cf-RKP">
+                                <rect key="frame" x="235" y="129" width="29" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" size="button"/>
                                 <state key="normal" backgroundImage="red_round_button.png.jpg">
                                     <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
@@ -63,9 +63,12 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="checkQuickGrade:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="Woz-mi-ZRN"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="47y-fB-ukc">
-                                <rect key="frame" x="300" y="124" width="29" height="30"/>
+                            <button opaque="NO" tag="1001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="47y-fB-ukc">
+                                <rect key="frame" x="269" y="129" width="29" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" size="button"/>
                                 <state key="normal" backgroundImage="ok.jpg">
                                     <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
@@ -74,9 +77,12 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="checkQuickGrade:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="phJ-vo-COO"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="RcY-nF-Rnb">
-                                <rect key="frame" x="337" y="124" width="29" height="30"/>
+                            <button opaque="NO" tag="1002" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="RcY-nF-Rnb">
+                                <rect key="frame" x="301" y="129" width="29" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" size="button"/>
                                 <state key="normal" backgroundImage="green_button.png">
                                     <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
@@ -85,9 +91,12 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="checkQuickGrade:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="VXT-3w-NcZ"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="7K0-EB-7cF">
-                                <rect key="frame" x="585" y="132" width="29" height="30"/>
+                            <button opaque="NO" tag="4000" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="7K0-EB-7cF">
+                                <rect key="frame" x="598" y="132" width="29" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" size="button"/>
                                 <state key="normal" backgroundImage="red_round_button.png.jpg">
                                     <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -96,9 +105,12 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="checkQuickGrade:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="k3h-cl-ede"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="PyR-YA-RUM">
-                                <rect key="frame" x="622" y="132" width="29" height="30"/>
+                            <button opaque="NO" tag="4001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="PyR-YA-RUM">
+                                <rect key="frame" x="630" y="133" width="29" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" size="button"/>
                                 <state key="normal" backgroundImage="ok.jpg">
                                     <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -107,8 +119,11 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="checkQuickGrade:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="h2L-G6-ELm"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="O5G-A4-JWB">
+                            <button opaque="NO" tag="4002" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="O5G-A4-JWB">
                                 <rect key="frame" x="659" y="131" width="29" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" size="button"/>
                                 <state key="normal" backgroundImage="green_button.png">
@@ -118,9 +133,12 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="checkQuickGrade:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="5Kd-FX-DaK"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="uSQ-EW-TrM">
-                                <rect key="frame" x="585" y="169" width="29" height="30"/>
+                            <button opaque="NO" tag="5000" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="uSQ-EW-TrM">
+                                <rect key="frame" x="598" y="169" width="29" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" size="button"/>
                                 <state key="normal" backgroundImage="red_round_button.png.jpg">
                                     <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -129,9 +147,12 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="checkQuickGrade:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="xdn-2n-8xa"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="PCm-mB-0Yg">
-                                <rect key="frame" x="622" y="169" width="29" height="30"/>
+                            <button opaque="NO" tag="5001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="PCm-mB-0Yg">
+                                <rect key="frame" x="630" y="169" width="29" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" size="button"/>
                                 <state key="normal" backgroundImage="ok.jpg">
                                     <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -140,8 +161,11 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="checkQuickGrade:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="OAe-qY-dnm"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="rZf-g7-zPh">
+                            <button opaque="NO" tag="5002" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="rZf-g7-zPh">
                                 <rect key="frame" x="659" y="168" width="29" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" size="button"/>
                                 <state key="normal" backgroundImage="green_button.png">
@@ -151,6 +175,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="checkQuickGrade:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="yXw-sH-9Lz"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Brt-WQ-2xN">
                                 <rect key="frame" x="724" y="168" width="29" height="30"/>
@@ -174,8 +201,8 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="5qp-aF-Lfj">
-                                <rect key="frame" x="585" y="206" width="29" height="30"/>
+                            <button opaque="NO" tag="6000" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="5qp-aF-Lfj">
+                                <rect key="frame" x="598" y="206" width="29" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" size="button"/>
                                 <state key="normal" backgroundImage="red_round_button.png.jpg">
                                     <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -184,9 +211,12 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="checkQuickGrade:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="1D5-Yt-isC"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Pgg-ss-T53">
-                                <rect key="frame" x="622" y="206" width="29" height="30"/>
+                            <button opaque="NO" tag="6001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Pgg-ss-T53">
+                                <rect key="frame" x="630" y="206" width="29" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" size="button"/>
                                 <state key="normal" backgroundImage="ok.jpg">
                                     <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -195,8 +225,11 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="checkQuickGrade:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="VoZ-qh-JFI"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="VZo-KJ-lkr">
+                            <button opaque="NO" tag="6002" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="VZo-KJ-lkr">
                                 <rect key="frame" x="659" y="206" width="29" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" size="button"/>
                                 <state key="normal" backgroundImage="green_button.png">
@@ -206,9 +239,12 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="checkQuickGrade:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="dIR-XS-U32"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="JbL-8n-Y5L">
-                                <rect key="frame" x="263" y="165" width="29" height="30"/>
+                            <button opaque="NO" tag="2000" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="JbL-8n-Y5L">
+                                <rect key="frame" x="235" y="170" width="29" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" size="button"/>
                                 <state key="normal" backgroundImage="red_round_button.png.jpg">
                                     <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -217,9 +253,12 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="checkQuickGrade:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="giG-SO-cjj"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="RZ5-6K-ati">
-                                <rect key="frame" x="300" y="165" width="29" height="30"/>
+                            <button opaque="NO" tag="2001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="RZ5-6K-ati">
+                                <rect key="frame" x="269" y="170" width="29" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" size="button"/>
                                 <state key="normal" backgroundImage="ok.jpg">
                                     <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -228,9 +267,12 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="checkQuickGrade:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="Qya-Bw-E2i"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="m99-Lf-eur">
-                                <rect key="frame" x="337" y="165" width="29" height="30"/>
+                            <button opaque="NO" tag="2002" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="m99-Lf-eur">
+                                <rect key="frame" x="301" y="170" width="29" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" size="button"/>
                                 <state key="normal" backgroundImage="green_button.png">
                                     <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -239,9 +281,12 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="checkQuickGrade:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="pA4-Lz-UZf"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="qb1-xj-60p">
-                                <rect key="frame" x="265" y="204" width="29" height="30"/>
+                            <button opaque="NO" tag="3000" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="qb1-xj-60p">
+                                <rect key="frame" x="235" y="209" width="29" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" size="button"/>
                                 <state key="normal" backgroundImage="red_round_button.png.jpg">
                                     <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -250,9 +295,12 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="checkQuickGrade:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="gGE-Wt-erT"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ZgC-jG-HNs">
-                                <rect key="frame" x="302" y="204" width="29" height="30"/>
+                            <button opaque="NO" tag="3001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ZgC-jG-HNs">
+                                <rect key="frame" x="269" y="209" width="29" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" size="button"/>
                                 <state key="normal" backgroundImage="ok.jpg">
                                     <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -261,9 +309,12 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="checkQuickGrade:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="SOt-8s-NdR"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ely-PN-G6Z">
-                                <rect key="frame" x="337" y="204" width="29" height="30"/>
+                            <button opaque="NO" tag="3002" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ely-PN-G6Z">
+                                <rect key="frame" x="301" y="209" width="29" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" size="button"/>
                                 <state key="normal" backgroundImage="green_button.png">
                                     <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -272,18 +323,16 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="checkQuickGrade:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="RVx-4x-f0p"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Type Specific comments" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="BrL-0q-NZC">
-                                <rect key="frame" x="25" y="632" width="212" height="32"/>
+                                <rect key="frame" x="25" y="582" width="212" height="32"/>
                                 <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="20"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="please enter additional comments here" borderStyle="roundedRect" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="always" id="WqB-yD-EAy">
-                                <rect key="frame" x="56" y="667" width="478" height="30"/>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="19"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Jdu-05-BnH">
                                 <rect key="frame" x="563" y="654" width="73" height="44"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
@@ -296,7 +345,7 @@
                                 </state>
                             </button>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" id="NtO-Vz-AD1">
-                                <rect key="frame" x="32" y="293" width="651" height="337"/>
+                                <rect key="frame" x="32" y="293" width="651" height="275"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1" verticalHuggingPriority="1" horizontalCompressionResistancePriority="1" verticalCompressionResistancePriority="1" text="You had all five points - good" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Lqr-yn-RN3">
@@ -439,6 +488,74 @@ Be creative (it will help in the conclusion bookend also).</string>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" tag="800" contentMode="bottomRight" showsHorizontalScrollIndicator="NO" id="Cee-ze-iHL">
+                                <rect key="frame" x="56" y="612" width="494" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.7958984375" green="0.7958984375" blue="0.7958984375" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="101" contentMode="left" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="38o-gM-g4L">
+                                <rect key="frame" x="196" y="129" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.86956521739130432" green="0.86956521739130432" blue="0.86956521739130432" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="102" contentMode="left" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="KKX-ds-00V">
+                                <rect key="frame" x="196" y="170" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.86956521740000003" green="0.86956521740000003" blue="0.86956521740000003" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="103" contentMode="left" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="WSr-dC-BJD">
+                                <rect key="frame" x="196" y="209" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.86956521740000003" green="0.86956521740000003" blue="0.86956521740000003" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="104" contentMode="left" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Pjn-ht-RbF">
+                                <rect key="frame" x="560" y="130" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.86956521740000003" green="0.86956521740000003" blue="0.86956521740000003" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="105" contentMode="left" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Bei-Uz-wlz">
+                                <rect key="frame" x="560" y="168" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.86956521740000003" green="0.86956521740000003" blue="0.86956521740000003" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="106" contentMode="left" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ei6-sz-KJk">
+                                <rect key="frame" x="560" y="206" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.86956521740000003" green="0.86956521740000003" blue="0.86956521740000003" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="901" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="VIZ-tx-6Si">
+                                <rect key="frame" x="381" y="28" width="60" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -468,7 +585,7 @@ Be creative (it will help in the conclusion bookend also).</string>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad" keyboardAppearance="alert" returnKeyType="done"/>
                             </textField>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Fe3-U8-fNb">
-                                <rect key="frame" x="41" y="96" width="208" height="64"/>
+                                <rect key="frame" x="40" y="100" width="208" height="49"/>
                                 <string key="text">Outline prepared as 
 instructed</string>
                                 <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="18"/>
@@ -863,13 +980,8 @@ instructed</string>
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="please enter additional comments here" borderStyle="roundedRect" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="always" id="afn-ti-IER">
-                                <rect key="frame" x="53" y="698" width="478" height="30"/>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="18"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="j4m-9e-4sL">
-                                <rect key="frame" x="575" y="685" width="73" height="44"/>
+                                <rect key="frame" x="570" y="659" width="73" height="44"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Update">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -880,7 +992,7 @@ instructed</string>
                                 </state>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Type Specific comments:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="H8q-dK-b2o">
-                                <rect key="frame" x="26" y="658" width="223" height="32"/>
+                                <rect key="frame" x="20" y="597" width="223" height="32"/>
                                 <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="21"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -891,7 +1003,7 @@ instructed</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="ltf-hW-pIS">
-                                <rect key="frame" x="26" y="362" width="650" height="268"/>
+                                <rect key="frame" x="33" y="367" width="650" height="211"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <subviews>
                                     <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="cn3-Vb-7Q4">
@@ -905,7 +1017,7 @@ instructed</string>
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="checkButton:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="PIT-9K-8UM"/>
+                                            <action selector="checkButton:" destination="A0T-TI-Qhb" eventType="touchUpInside" id="vX5-lz-CXW"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1" verticalHuggingPriority="1" horizontalCompressionResistancePriority="1" verticalCompressionResistancePriority="1" text="Chronological Organizational Pattern was good choice for this topic" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="wUj-pD-ufK">
@@ -925,8 +1037,7 @@ instructed</string>
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="checkBox:" destination="A0T-TI-Qhb" eventType="touchUpInside" id="zZe-0u-WSw"/>
-                                            <action selector="checkButton:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="40b-OX-5G2"/>
+                                            <action selector="checkButton:" destination="A0T-TI-Qhb" eventType="touchUpInside" id="apL-Rw-VhR"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1" verticalHuggingPriority="1" horizontalCompressionResistancePriority="1" verticalCompressionResistancePriority="1" text="Spatial Organization Pattern was good choice for this topic" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="da4-Y4-l1x">
@@ -946,8 +1057,7 @@ instructed</string>
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="checkBox:" destination="A0T-TI-Qhb" eventType="touchUpInside" id="m5L-5U-aP6"/>
-                                            <action selector="checkButton:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="W4y-bV-TvE"/>
+                                            <action selector="checkButton:" destination="A0T-TI-Qhb" eventType="touchUpInside" id="gXh-tE-94f"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1" verticalHuggingPriority="1" horizontalCompressionResistancePriority="1" verticalCompressionResistancePriority="1" text="Topical Organization Pattern was good choice for this topic" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="VkC-7U-Un6">
@@ -967,8 +1077,7 @@ instructed</string>
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="checkBox:" destination="A0T-TI-Qhb" eventType="touchUpInside" id="6e9-LB-AIf"/>
-                                            <action selector="checkButton:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="MkG-vn-95i"/>
+                                            <action selector="checkButton:" destination="A0T-TI-Qhb" eventType="touchUpInside" id="G3S-CT-Quk"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1" verticalHuggingPriority="1" horizontalCompressionResistancePriority="1" verticalCompressionResistancePriority="1" text="You could also try using Chronological Organizational Pattern for this topic" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="QZi-Fl-Dk7">
@@ -988,8 +1097,7 @@ instructed</string>
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="checkBox:" destination="A0T-TI-Qhb" eventType="touchUpInside" id="AvO-If-Y2A"/>
-                                            <action selector="checkButton:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="TdM-Im-SP4"/>
+                                            <action selector="checkButton:" destination="A0T-TI-Qhb" eventType="touchUpInside" id="FKf-JZ-PeJ"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1" verticalHuggingPriority="1" horizontalCompressionResistancePriority="1" verticalCompressionResistancePriority="1" text="You could also try using Spatial Organizational Pattern for this topic" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="JKl-u6-cyd">
@@ -1009,8 +1117,7 @@ instructed</string>
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="checkBox:" destination="A0T-TI-Qhb" eventType="touchUpInside" id="1z6-WW-12T"/>
-                                            <action selector="checkButton:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="asG-Qb-dPf"/>
+                                            <action selector="checkButton:" destination="A0T-TI-Qhb" eventType="touchUpInside" id="JD7-3P-AxI"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1" verticalHuggingPriority="1" horizontalCompressionResistancePriority="1" verticalCompressionResistancePriority="1" text="You could also try using Topical Organizational Pattern for this topic" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nIr-ud-kQr">
@@ -1030,8 +1137,7 @@ instructed</string>
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="checkBox:" destination="A0T-TI-Qhb" eventType="touchUpInside" id="ATZ-ZG-Xjv"/>
-                                            <action selector="checkButton:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="yrQ-Bv-Hup"/>
+                                            <action selector="checkButton:" destination="A0T-TI-Qhb" eventType="touchUpInside" id="0ZD-a5-sc4"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1" verticalHuggingPriority="1" horizontalCompressionResistancePriority="1" verticalCompressionResistancePriority="1" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="c3P-LK-Wen">
@@ -1053,8 +1159,7 @@ Break up the body into pieces/parts and subpoints</string>
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="checkBox:" destination="A0T-TI-Qhb" eventType="touchUpInside" id="NtQ-Bw-SgG"/>
-                                            <action selector="checkButton:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="GEf-GX-Po9"/>
+                                            <action selector="checkButton:" destination="A0T-TI-Qhb" eventType="touchUpInside" id="9DD-Yi-tWq"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1" verticalHuggingPriority="1" horizontalCompressionResistancePriority="1" verticalCompressionResistancePriority="1" text="You used transitions, signposts effectively to help the audience follow you and keep up with your ideas" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="pgy-u9-02d">
@@ -1074,8 +1179,7 @@ Break up the body into pieces/parts and subpoints</string>
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="checkBox:" destination="A0T-TI-Qhb" eventType="touchUpInside" id="lm2-Je-Wc0"/>
-                                            <action selector="checkButton:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="P0U-6K-3VN"/>
+                                            <action selector="checkButton:" destination="A0T-TI-Qhb" eventType="touchUpInside" id="kdM-Ik-7G8"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1" verticalHuggingPriority="1" horizontalCompressionResistancePriority="1" verticalCompressionResistancePriority="1" text="You need to incorporate additional transitions and signposts to help audience follow you more easily" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7oW-Lu-3oA">
@@ -1095,8 +1199,7 @@ Break up the body into pieces/parts and subpoints</string>
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="checkBox:" destination="A0T-TI-Qhb" eventType="touchUpInside" id="hRu-8y-8w5"/>
-                                            <action selector="checkButton:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="p3a-8g-eLf"/>
+                                            <action selector="checkButton:" destination="A0T-TI-Qhb" eventType="touchUpInside" id="V28-rt-bao"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1" verticalHuggingPriority="1" horizontalCompressionResistancePriority="1" verticalCompressionResistancePriority="1" text="Several of your points need to be developed more fully" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Yuq-xc-HwE">
@@ -1118,6 +1221,13 @@ Break up the body into pieces/parts and subpoints</string>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="bottomRight" showsHorizontalScrollIndicator="NO" id="BYd-l0-qB9">
+                                <rect key="frame" x="39" y="625" width="494" height="111"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.7958984375" green="0.7958984375" blue="0.7958984375" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -1383,7 +1493,7 @@ Break up the body into pieces/parts and subpoints</string>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="xh8-nI-BRK">
-                                <rect key="frame" x="548" y="680" width="73" height="44"/>
+                                <rect key="frame" x="548" y="646" width="73" height="44"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Update">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -1394,24 +1504,18 @@ Break up the body into pieces/parts and subpoints</string>
                                 </state>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Type Specific Comments:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="B31-Tx-FQL">
-                                <rect key="frame" x="20" y="651" width="228" height="21"/>
+                                <rect key="frame" x="19" y="570" width="228" height="21"/>
                                 <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="21"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="please enter additional comments here" borderStyle="roundedRect" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="always" id="QIt-PS-oaw">
-                                <rect key="frame" x="40" y="687" width="495" height="30"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="18"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Reasoning and Evidence:" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="o41-w1-voN">
                                 <rect key="frame" x="10" y="22" width="469" height="44"/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="32"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" indicatorStyle="black" id="Cwr-sH-KeO">
-                                <rect key="frame" x="21" y="303" width="650" height="313"/>
+                                <rect key="frame" x="33" y="303" width="650" height="216"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Cited sources sufficiently, correctly and throughout" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="wJq-1f-dAx">
@@ -1437,8 +1541,7 @@ Break up the body into pieces/parts and subpoints</string>
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="checkBox:" destination="A0T-TI-Qhb" eventType="touchUpInside" id="gE3-5F-PxK"/>
-                                            <action selector="checkButton:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="XXO-j8-WYO"/>
+                                            <action selector="checkButton:" destination="eZw-ej-Ay9" eventType="touchUpInside" id="p9q-Pi-O14"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="18" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="KSd-u7-uzj">
@@ -1452,8 +1555,7 @@ Break up the body into pieces/parts and subpoints</string>
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="checkBox:" destination="A0T-TI-Qhb" eventType="touchUpInside" id="mx0-6B-jFT"/>
-                                            <action selector="checkButton:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="vu2-Q5-iUc"/>
+                                            <action selector="checkButton:" destination="eZw-ej-Ay9" eventType="touchUpInside" id="qTd-uk-7uS"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="You had facts and obviously did research but you must tell us where you got the information used in the speech" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2k3-sN-RR0">
@@ -1479,8 +1581,7 @@ Break up the body into pieces/parts and subpoints</string>
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="checkBox:" destination="A0T-TI-Qhb" eventType="touchUpInside" id="sXf-Vu-aYK"/>
-                                            <action selector="checkButton:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="LVt-WY-Yzb"/>
+                                            <action selector="checkButton:" destination="eZw-ej-Ay9" eventType="touchUpInside" id="9aW-gG-ZeX"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Remember to CITE sources fully - you must not just give the author, but must tell us where it was found, the date,etc" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ocN-Yp-ysB">
@@ -1506,8 +1607,7 @@ Break up the body into pieces/parts and subpoints</string>
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="checkBox:" destination="A0T-TI-Qhb" eventType="touchUpInside" id="WcR-NG-KmU"/>
-                                            <action selector="checkButton:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="7i9-x3-P4X"/>
+                                            <action selector="checkButton:" destination="eZw-ej-Ay9" eventType="touchUpInside" id="AoM-NS-aXK"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Quotes must also be cited" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Y7K-3j-8LM">
@@ -1527,8 +1627,7 @@ Break up the body into pieces/parts and subpoints</string>
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="checkBox:" destination="A0T-TI-Qhb" eventType="touchUpInside" id="04R-6r-MwM"/>
-                                            <action selector="checkButton:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="8ZP-6K-Olb"/>
+                                            <action selector="checkButton:" destination="eZw-ej-Ay9" eventType="touchUpInside" id="mUC-fj-GIW"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="19" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Gyq-hK-H2x">
@@ -1542,8 +1641,7 @@ Break up the body into pieces/parts and subpoints</string>
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="checkBox:" destination="A0T-TI-Qhb" eventType="touchUpInside" id="rmg-gK-sSJ"/>
-                                            <action selector="checkButton:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="u8y-vY-GFG"/>
+                                            <action selector="checkButton:" destination="eZw-ej-Ay9" eventType="touchUpInside" id="rIe-Gc-HAR"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="23" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="WS0-WL-Z2D">
@@ -1557,8 +1655,7 @@ Break up the body into pieces/parts and subpoints</string>
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="checkBox:" destination="A0T-TI-Qhb" eventType="touchUpInside" id="3zi-Ad-iwW"/>
-                                            <action selector="checkButton:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="v3t-CH-qiJ"/>
+                                            <action selector="checkButton:" destination="eZw-ej-Ay9" eventType="touchUpInside" id="vOw-EE-pvS"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -1574,6 +1671,13 @@ Break up the body into pieces/parts and subpoints</string>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="bottomRight" showsHorizontalScrollIndicator="NO" id="vPP-Vz-c6q">
+                                <rect key="frame" x="33" y="612" width="494" height="111"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.7958984375" green="0.7958984375" blue="0.7958984375" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -1766,13 +1870,8 @@ Break up the body into pieces/parts and subpoints</string>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="please enter additional comments here" borderStyle="roundedRect" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="always" id="o4G-el-S8q">
-                                <rect key="frame" x="42" y="610" width="478" height="30"/>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="18"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="hE5-5b-qZI">
-                                <rect key="frame" x="554" y="603" width="73" height="44"/>
+                                <rect key="frame" x="553" y="638" width="73" height="44"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Update">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -1788,7 +1887,7 @@ Break up the body into pieces/parts and subpoints</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" id="cVs-BB-o9Q">
-                                <rect key="frame" x="26" y="257" width="650" height="291"/>
+                                <rect key="frame" x="26" y="247" width="650" height="291"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="You used several specific gestures" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dd1-wC-xfJ">
@@ -1850,8 +1949,7 @@ Break up the body into pieces/parts and subpoints</string>
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="checkBox:" destination="A0T-TI-Qhb" eventType="touchUpInside" id="OaI-Bi-Q04"/>
-                                            <action selector="checkButton:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="6x7-6k-NPO"/>
+                                            <action selector="checkButton:" destination="XLo-Nj-eOb" eventType="touchUpInside" id="7vH-hw-dfd"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="46" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="rLH-Ji-JYb">
@@ -1865,8 +1963,7 @@ Break up the body into pieces/parts and subpoints</string>
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="checkBox:" destination="A0T-TI-Qhb" eventType="touchUpInside" id="1y7-jU-PV9"/>
-                                            <action selector="checkButton:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="3AM-wd-kat"/>
+                                            <action selector="checkButton:" destination="XLo-Nj-eOb" eventType="touchUpInside" id="xQk-il-v46"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="47" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="QAS-nt-CoX">
@@ -1880,8 +1977,7 @@ Break up the body into pieces/parts and subpoints</string>
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="checkBox:" destination="A0T-TI-Qhb" eventType="touchUpInside" id="KHJ-UT-TeA"/>
-                                            <action selector="checkButton:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="91q-F9-cG6"/>
+                                            <action selector="checkButton:" destination="XLo-Nj-eOb" eventType="touchUpInside" id="0cw-hq-0da"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="48" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="8Ka-id-3jM">
@@ -1895,8 +1991,7 @@ Break up the body into pieces/parts and subpoints</string>
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="checkBox:" destination="A0T-TI-Qhb" eventType="touchUpInside" id="E2G-Vr-xeg"/>
-                                            <action selector="checkButton:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="aMm-SH-rq3"/>
+                                            <action selector="checkButton:" destination="XLo-Nj-eOb" eventType="touchUpInside" id="0LK-LK-rv0"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="49" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="11f-kL-R1f">
@@ -1910,8 +2005,7 @@ Break up the body into pieces/parts and subpoints</string>
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="checkBox:" destination="A0T-TI-Qhb" eventType="touchUpInside" id="NkW-hA-Gvg"/>
-                                            <action selector="checkButton:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="jOd-8G-PuN"/>
+                                            <action selector="checkButton:" destination="XLo-Nj-eOb" eventType="touchUpInside" id="OcS-ZC-tTQ"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="50" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="v8f-Vv-wh0">
@@ -1925,8 +2019,7 @@ Break up the body into pieces/parts and subpoints</string>
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="checkBox:" destination="A0T-TI-Qhb" eventType="touchUpInside" id="scT-iz-obo"/>
-                                            <action selector="checkButton:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="lKr-3M-4Sd"/>
+                                            <action selector="checkButton:" destination="XLo-Nj-eOb" eventType="touchUpInside" id="YMp-sZ-BhC"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="52" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="bZp-dv-Ia6">
@@ -1940,8 +2033,7 @@ Break up the body into pieces/parts and subpoints</string>
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="checkBox:" destination="A0T-TI-Qhb" eventType="touchUpInside" id="nCQ-hV-Knc"/>
-                                            <action selector="checkButton:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="rKJ-MN-FMS"/>
+                                            <action selector="checkButton:" destination="XLo-Nj-eOb" eventType="touchUpInside" id="G8A-1W-EQD"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="53" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Y3f-lb-Ddg">
@@ -1955,8 +2047,7 @@ Break up the body into pieces/parts and subpoints</string>
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="checkBox:" destination="A0T-TI-Qhb" eventType="touchUpInside" id="sP9-Mm-HSg"/>
-                                            <action selector="checkButton:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="yVL-Wz-Hej"/>
+                                            <action selector="checkButton:" destination="XLo-Nj-eOb" eventType="touchUpInside" id="Rb3-s6-9rr"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="You have slight tendency to move or shuffle from foot to foot or to cross your leg - try to minimize this" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Blg-3i-gb6">
@@ -1976,8 +2067,7 @@ Break up the body into pieces/parts and subpoints</string>
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="checkBox:" destination="A0T-TI-Qhb" eventType="touchUpInside" id="io3-V5-R2w"/>
-                                            <action selector="checkButton:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="X4z-Uw-Qbj"/>
+                                            <action selector="checkButton:" destination="XLo-Nj-eOb" eventType="touchUpInside" id="3BS-P6-rpw"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -1987,6 +2077,13 @@ Break up the body into pieces/parts and subpoints</string>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </scrollView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="bottomRight" showsHorizontalScrollIndicator="NO" id="OPJ-FI-dfT">
+                                <rect key="frame" x="34" y="609" width="494" height="111"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.7958984375" green="0.7958984375" blue="0.7958984375" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -2231,13 +2328,8 @@ Break up the body into pieces/parts and subpoints</string>
                                     <segue destination="n8S-0G-QzD" kind="modal" id="L7W-q7-bBL"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="please enter additional comments here" borderStyle="roundedRect" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="always" id="dKR-zm-SLr">
-                                <rect key="frame" x="55" y="526" width="478" height="30"/>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="18"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="P9m-Xp-hqc">
-                                <rect key="frame" x="547" y="519" width="73" height="44"/>
+                                <rect key="frame" x="545" y="553" width="73" height="44"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Update">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -2254,7 +2346,7 @@ Break up the body into pieces/parts and subpoints</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" id="zPP-Mv-iuS">
-                                <rect key="frame" x="33" y="262" width="650" height="216"/>
+                                <rect key="frame" x="33" y="262" width="650" height="223"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <subviews>
                                     <button opaque="NO" tag="54" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="YDW-dt-egt">
@@ -2268,9 +2360,7 @@ Break up the body into pieces/parts and subpoints</string>
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="checkBox:" destination="MKs-gM-EII" eventType="touchUpInside" id="afT-di-w9Z"/>
-                                            <action selector="checkBox:" destination="A0T-TI-Qhb" eventType="touchUpInside" id="v2m-rz-Wnl"/>
-                                            <action selector="checkButton:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="GeV-yB-UmM"/>
+                                            <action selector="checkButton:" destination="MKs-gM-EII" eventType="touchUpInside" id="inx-kS-aoL"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="56" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ukS-hV-9FP">
@@ -2284,9 +2374,7 @@ Break up the body into pieces/parts and subpoints</string>
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="checkBox:" destination="MKs-gM-EII" eventType="touchUpInside" id="M36-x7-cCJ"/>
-                                            <action selector="checkBox:" destination="A0T-TI-Qhb" eventType="touchUpInside" id="dmp-E4-reo"/>
-                                            <action selector="checkButton:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="baR-R2-Pqx"/>
+                                            <action selector="checkButton:" destination="MKs-gM-EII" eventType="touchUpInside" id="fYX-vp-0EN"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1" verticalHuggingPriority="1" horizontalCompressionResistancePriority="1" verticalCompressionResistancePriority="1" text="You had all three points - good" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Q9J-aj-Gc7">
@@ -2306,9 +2394,7 @@ Break up the body into pieces/parts and subpoints</string>
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="checkBox:" destination="A0T-TI-Qhb" eventType="touchUpInside" id="6Ta-pu-gvl"/>
-                                            <action selector="checkBox:" destination="MKs-gM-EII" eventType="touchUpInside" id="upR-Bt-Uci"/>
-                                            <action selector="checkButton:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="uxD-BW-1Eu"/>
+                                            <action selector="checkButton:" destination="MKs-gM-EII" eventType="touchUpInside" id="jIO-lq-icC"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1" verticalHuggingPriority="1" horizontalCompressionResistancePriority="1" verticalCompressionResistancePriority="1" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="KIi-ld-zUG">
@@ -2336,9 +2422,7 @@ like "In Conclusion" or "To wrap up my speech"</string>
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="checkBox:" destination="A0T-TI-Qhb" eventType="touchUpInside" id="aVN-Al-8qb"/>
-                                            <action selector="checkBox:" destination="MKs-gM-EII" eventType="touchUpInside" id="hXS-lF-Zpj"/>
-                                            <action selector="checkButton:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="LYI-P9-Iw5"/>
+                                            <action selector="checkButton:" destination="MKs-gM-EII" eventType="touchUpInside" id="JSe-vV-Jri"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1" verticalHuggingPriority="1" horizontalCompressionResistancePriority="1" verticalCompressionResistancePriority="1" text="Incorporate a &quot;Bookend&quot; to mirror the first thing you did in the Introduction" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ukb-s7-a2L">
@@ -2358,9 +2442,7 @@ like "In Conclusion" or "To wrap up my speech"</string>
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="checkBox:" destination="A0T-TI-Qhb" eventType="touchUpInside" id="51p-vR-Ztq"/>
-                                            <action selector="checkBox:" destination="MKs-gM-EII" eventType="touchUpInside" id="n6h-87-EPk"/>
-                                            <action selector="checkButton:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="2z2-p5-EGq"/>
+                                            <action selector="checkButton:" destination="MKs-gM-EII" eventType="touchUpInside" id="bFJ-aI-UsD"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1" verticalHuggingPriority="1" horizontalCompressionResistancePriority="1" verticalCompressionResistancePriority="1" text="Plan a definite, strong final statement -- Dont just fade out and/or dont just say &quot;Well, thats it&quot; or &quot;Thank you&quot;" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="KhQ-Oq-t3C">
@@ -2376,6 +2458,13 @@ like "In Conclusion" or "To wrap up my speech"</string>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </scrollView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="bottomRight" showsHorizontalScrollIndicator="NO" id="1h7-d9-km5">
+                                <rect key="frame" x="35" y="519" width="494" height="111"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.7958984375" green="0.7958984375" blue="0.7958984375" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -2555,7 +2644,7 @@ like "In Conclusion" or "To wrap up my speech"</string>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Su2-w4-dDq">
-                                <rect key="frame" x="567" y="672" width="75" height="44"/>
+                                <rect key="frame" x="562" y="638" width="75" height="44"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Update">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -2565,13 +2654,8 @@ like "In Conclusion" or "To wrap up my speech"</string>
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Please enter specific comments here" borderStyle="roundedRect" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="always" id="R53-RK-9w4">
-                                <rect key="frame" x="61" y="686" width="481" height="30"/>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="18"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Type Specific Comments:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="QgW-6i-dEm">
-                                <rect key="frame" x="20" y="657" width="217" height="21"/>
+                                <rect key="frame" x="22" y="575" width="217" height="21"/>
                                 <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="20"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -2648,7 +2732,7 @@ like "In Conclusion" or "To wrap up my speech"</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" id="rpl-5n-eIT">
-                                <rect key="frame" x="43" y="284" width="640" height="320"/>
+                                <rect key="frame" x="43" y="268" width="640" height="282"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Remember to keep the aid covered or reversed until you refer to it in the speech" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jhh-2r-RzI">
@@ -2692,8 +2776,7 @@ like "In Conclusion" or "To wrap up my speech"</string>
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="checkBox:" destination="A0T-TI-Qhb" eventType="touchUpInside" id="wN8-se-vnx"/>
-                                            <action selector="checkButton:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="oRx-Wc-fCr"/>
+                                            <action selector="checkButton:" destination="CYw-Vf-743" eventType="touchUpInside" id="o2h-Xf-Pot"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="27" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="EEU-m3-FJe">
@@ -2707,8 +2790,7 @@ like "In Conclusion" or "To wrap up my speech"</string>
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="checkBox:" destination="A0T-TI-Qhb" eventType="touchUpInside" id="c5w-F9-9oy"/>
-                                            <action selector="checkButton:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="4aO-6C-nLx"/>
+                                            <action selector="checkButton:" destination="CYw-Vf-743" eventType="touchUpInside" id="74m-eZ-P0t"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="28" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="DUf-1u-MFc">
@@ -2722,8 +2804,7 @@ like "In Conclusion" or "To wrap up my speech"</string>
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="checkBox:" destination="A0T-TI-Qhb" eventType="touchUpInside" id="W0H-Xg-kZ4"/>
-                                            <action selector="checkButton:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="IXS-Sg-C2y"/>
+                                            <action selector="checkButton:" destination="CYw-Vf-743" eventType="touchUpInside" id="IeW-32-vxC"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="29" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="1vg-Kn-stz">
@@ -2737,12 +2818,11 @@ like "In Conclusion" or "To wrap up my speech"</string>
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="checkBox:" destination="A0T-TI-Qhb" eventType="touchUpInside" id="lRp-al-uJF"/>
-                                            <action selector="checkButton:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="mZg-bK-tqc"/>
+                                            <action selector="checkButton:" destination="CYw-Vf-743" eventType="touchUpInside" id="cnw-gM-FZn"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="30" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="zae-ve-iKW">
-                                        <rect key="frame" x="18" y="325" width="21" height="20"/>
+                                        <rect key="frame" x="16" y="325" width="21" height="20"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                         <state key="normal" image="CheckBox.jpeg">
                                             <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -2752,8 +2832,7 @@ like "In Conclusion" or "To wrap up my speech"</string>
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="checkBox:" destination="A0T-TI-Qhb" eventType="touchUpInside" id="4PZ-DJ-FI2"/>
-                                            <action selector="checkButton:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="aAN-9y-w5y"/>
+                                            <action selector="checkButton:" destination="CYw-Vf-743" eventType="touchUpInside" id="50z-Wl-sKC"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="31" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="TSr-Jo-Tgc">
@@ -2767,8 +2846,7 @@ like "In Conclusion" or "To wrap up my speech"</string>
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="checkBox:" destination="A0T-TI-Qhb" eventType="touchUpInside" id="Vn0-xR-7PW"/>
-                                            <action selector="checkButton:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="8jD-Zq-sUw"/>
+                                            <action selector="checkButton:" destination="CYw-Vf-743" eventType="touchUpInside" id="Kmg-g7-5XD"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="32" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="diw-S2-1ah">
@@ -2782,8 +2860,7 @@ like "In Conclusion" or "To wrap up my speech"</string>
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="checkBox:" destination="A0T-TI-Qhb" eventType="touchUpInside" id="Wbo-N5-b9Q"/>
-                                            <action selector="checkButton:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="rQu-BK-1Ts"/>
+                                            <action selector="checkButton:" destination="CYw-Vf-743" eventType="touchUpInside" id="x2g-Qb-GVN"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="33" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="MPT-Dp-c48">
@@ -2797,8 +2874,7 @@ like "In Conclusion" or "To wrap up my speech"</string>
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="checkBox:" destination="A0T-TI-Qhb" eventType="touchUpInside" id="c3F-gK-p8g"/>
-                                            <action selector="checkButton:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="8yB-SE-J7t"/>
+                                            <action selector="checkButton:" destination="CYw-Vf-743" eventType="touchUpInside" id="Xyx-z6-Bbq"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="34" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="j3F-xG-ane">
@@ -2812,8 +2888,7 @@ like "In Conclusion" or "To wrap up my speech"</string>
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="checkBox:" destination="A0T-TI-Qhb" eventType="touchUpInside" id="nGB-j9-LYy"/>
-                                            <action selector="checkButton:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="Kw3-uh-spO"/>
+                                            <action selector="checkButton:" destination="CYw-Vf-743" eventType="touchUpInside" id="xxh-Xx-I6j"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="This aid was all/mostly text" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="KeV-tt-xbn">
@@ -2863,8 +2938,7 @@ like "In Conclusion" or "To wrap up my speech"</string>
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="checkBox:" destination="A0T-TI-Qhb" eventType="touchUpInside" id="KY3-O5-lVu"/>
-                                            <action selector="checkButton:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="aMU-9m-H5M"/>
+                                            <action selector="checkButton:" destination="CYw-Vf-743" eventType="touchUpInside" id="W9i-Vz-maX"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="25" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="X4Y-ko-drn">
@@ -2878,8 +2952,7 @@ like "In Conclusion" or "To wrap up my speech"</string>
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="checkBox:" destination="A0T-TI-Qhb" eventType="touchUpInside" id="aTq-BF-eJh"/>
-                                            <action selector="checkButton:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="YA3-jB-5cS"/>
+                                            <action selector="checkButton:" destination="CYw-Vf-743" eventType="touchUpInside" id="RIh-v4-WLR"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -2895,6 +2968,13 @@ like "In Conclusion" or "To wrap up my speech"</string>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="bottomRight" showsHorizontalScrollIndicator="NO" id="vhY-f2-zKh">
+                                <rect key="frame" x="43" y="604" width="494" height="111"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.7958984375" green="0.7958984375" blue="0.7958984375" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -2974,18 +3054,13 @@ like "In Conclusion" or "To wrap up my speech"</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Type Specific comments" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Is4-Nj-hfJ">
-                                <rect key="frame" x="13" y="627" width="212" height="32"/>
+                                <rect key="frame" x="13" y="581" width="212" height="32"/>
                                 <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="20"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="please enter additional comments here" borderStyle="roundedRect" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="always" id="lfl-3c-2OI">
-                                <rect key="frame" x="44" y="668" width="478" height="30"/>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="19"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="fKV-I4-bMv">
-                                <rect key="frame" x="552" y="661" width="73" height="44"/>
+                                <rect key="frame" x="552" y="655" width="73" height="44"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Update">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -3232,7 +3307,7 @@ like "In Conclusion" or "To wrap up my speech"</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" id="FDm-l3-Zgb">
-                                <rect key="frame" x="20" y="328" width="650" height="267"/>
+                                <rect key="frame" x="20" y="330" width="650" height="207"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="You were a bit fast, slow down so we can keep up with your ideas - remember, we are hearing this material just once" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zAu-mt-Xhk">
@@ -3306,7 +3381,7 @@ like "In Conclusion" or "To wrap up my speech"</string>
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="checkButton:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="TSj-91-X6h"/>
+                                            <action selector="checkButton:" destination="byN-QB-onu" eventType="touchUpInside" id="pTP-cU-5au"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="36" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="O2W-kr-0Ob">
@@ -3320,7 +3395,7 @@ like "In Conclusion" or "To wrap up my speech"</string>
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="checkButton:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="R4b-ew-8SP"/>
+                                            <action selector="checkButton:" destination="byN-QB-onu" eventType="touchUpInside" id="RV4-zV-Wkr"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="37" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="C59-Lm-9w6">
@@ -3334,7 +3409,7 @@ like "In Conclusion" or "To wrap up my speech"</string>
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="checkButton:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="GuI-jF-cq1"/>
+                                            <action selector="checkButton:" destination="byN-QB-onu" eventType="touchUpInside" id="95y-aP-jrr"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="39" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="WTk-Ho-Iby">
@@ -3348,7 +3423,7 @@ like "In Conclusion" or "To wrap up my speech"</string>
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="checkButton:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="BDM-ok-fYt"/>
+                                            <action selector="checkButton:" destination="byN-QB-onu" eventType="touchUpInside" id="aVL-bB-Yue"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="38" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="QbL-K7-E4G">
@@ -3362,7 +3437,7 @@ like "In Conclusion" or "To wrap up my speech"</string>
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="checkButton:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="EJm-0g-KIZ"/>
+                                            <action selector="checkButton:" destination="byN-QB-onu" eventType="touchUpInside" id="l5h-kE-DVt"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="41" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Oxk-w7-4R4">
@@ -3376,7 +3451,7 @@ like "In Conclusion" or "To wrap up my speech"</string>
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="checkButton:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="GO2-XF-uOX"/>
+                                            <action selector="checkButton:" destination="byN-QB-onu" eventType="touchUpInside" id="YMz-ii-QOr"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="40" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="BiA-a8-lVr">
@@ -3390,7 +3465,7 @@ like "In Conclusion" or "To wrap up my speech"</string>
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="checkButton:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="7Uq-NH-eks"/>
+                                            <action selector="checkButton:" destination="byN-QB-onu" eventType="touchUpInside" id="CFW-xg-go1"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="42" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Auy-dJ-GWj">
@@ -3404,7 +3479,7 @@ like "In Conclusion" or "To wrap up my speech"</string>
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="checkButton:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="Bnk-yg-Dh8"/>
+                                            <action selector="checkButton:" destination="byN-QB-onu" eventType="touchUpInside" id="22T-P1-OgC"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="43" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="dpY-iy-WUe">
@@ -3418,7 +3493,7 @@ like "In Conclusion" or "To wrap up my speech"</string>
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="checkButton:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="MeQ-6Y-IJR"/>
+                                            <action selector="checkButton:" destination="byN-QB-onu" eventType="touchUpInside" id="P14-v0-m89"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="44" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ha3-7l-2DQ">
@@ -3432,7 +3507,7 @@ like "In Conclusion" or "To wrap up my speech"</string>
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="checkButton:" destination="Dzm-p5-sLe" eventType="touchUpInside" id="09D-pT-efP"/>
+                                            <action selector="checkButton:" destination="byN-QB-onu" eventType="touchUpInside" id="YIp-59-ogC"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -3442,6 +3517,13 @@ like "In Conclusion" or "To wrap up my speech"</string>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </scrollView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="bottomRight" showsHorizontalScrollIndicator="NO" id="Uig-vb-WgN">
+                                <rect key="frame" x="33" y="621" width="494" height="111"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.7958984375" green="0.7958984375" blue="0.7958984375" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -3625,14 +3707,14 @@ like "In Conclusion" or "To wrap up my speech"</string>
         <class className="ConclusionViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ConclusionViewController.h"/>
             <relationships>
-                <relationship kind="action" name="checkBox:"/>
-                <relationship kind="outlet" name="CheckBoxButton" candidateClass="UIButton"/>
+                <relationship kind="action" name="checkButton:"/>
             </relationships>
         </class>
         <class className="DetailViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/DetailViewController.h"/>
             <relationships>
                 <relationship kind="action" name="checkButton:"/>
+                <relationship kind="action" name="checkQuickGrade:"/>
                 <relationship kind="outlet" name="QuickGradeLabel" candidateClass="UILabel"/>
             </relationships>
         </class>
@@ -3654,22 +3736,34 @@ like "In Conclusion" or "To wrap up my speech"</string>
         </class>
         <class className="PhysicalDeliveryViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/PhysicalDeliveryViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="checkButton:"/>
+            </relationships>
         </class>
         <class className="PresentationalAidViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/PresentationalAidViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="checkButton:"/>
+            </relationships>
         </class>
         <class className="ReasoningViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ReasoningViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="check:"/>
+                <relationship kind="action" name="checkButton:"/>
+            </relationships>
         </class>
         <class className="SecondViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/SecondViewController.h"/>
             <relationships>
-                <relationship kind="action" name="checkBox:"/>
-                <relationship kind="outlet" name="CheckBoxButton" candidateClass="UIButton"/>
+                <relationship kind="action" name="checkButton:"/>
             </relationships>
         </class>
         <class className="VoiceAndLanguageViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/VoiceAndLanguageViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="checkButton:"/>
+            </relationships>
         </class>
     </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

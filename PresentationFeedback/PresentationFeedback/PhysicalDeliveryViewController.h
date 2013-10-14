@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Constants.h"
+
 
 @interface PhysicalDeliveryViewController : UIViewController
+{
+    bool checked;
+}
+
+- (IBAction)checkButton:(id)sender;
+
 
 @end

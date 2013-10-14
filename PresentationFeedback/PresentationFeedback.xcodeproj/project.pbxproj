@@ -142,6 +142,8 @@
 			children = (
 				40EFD43117A5D45700D85A3C /* DetailViewController.h */,
 				40EFD43217A5D45700D85A3C /* DetailViewController.m */,
+				40EFD44417A5D45700D85A3C /* SecondViewController.h */,
+				40EFD44517A5D45700D85A3C /* SecondViewController.m */,
 				40EFD43317A5D45700D85A3C /* DetailViewManager.h */,
 				40EFD43417A5D45700D85A3C /* DetailViewManager.m */,
 				40EFD43A17A5D45700D85A3C /* green_button.png */,
@@ -150,15 +152,12 @@
 				40EFD43D17A5D45700D85A3C /* MainStoryBoard_iPad.storyboard */,
 				40EFD43E17A5D45700D85A3C /* MasterViewController.h */,
 				40EFD43F17A5D45700D85A3C /* MasterViewController.m */,
-				40EFD44417A5D45700D85A3C /* SecondViewController.h */,
-				40EFD44517A5D45700D85A3C /* SecondViewController.m */,
 				4073334217A61BF4003AD33C /* ReasoningViewController.h */,
 				4073334317A61BF4003AD33C /* ReasoningViewController.m */,
 				4073334517A61F89003AD33C /* PresentationalAidViewController.h */,
 				4073334617A61F89003AD33C /* PresentationalAidViewController.m */,
 				40EFD41B17A5D3ED00D85A3C /* AppDelegate.h */,
 				40EFD41C17A5D3ED00D85A3C /* AppDelegate.m */,
-				40EFD41317A5D3ED00D85A3C /* Supporting Files */,
 				4073334817A621FC003AD33C /* VoiceAndLanguageViewController.h */,
 				4073334917A621FC003AD33C /* VoiceAndLanguageViewController.m */,
 				4073334B17A62433003AD33C /* PhysicalDeliveryViewController.h */,
@@ -169,6 +168,7 @@
 				F18639BF17A76E91005FFA20 /* EvaluationViewController.m */,
 				404E88371801F326005784DC /* Constants.h */,
 				404E88381801F326005784DC /* Constants.m */,
+				40EFD41317A5D3ED00D85A3C /* Supporting Files */,
 			);
 			path = PresentationFeedback;
 			sourceTree = "<group>";

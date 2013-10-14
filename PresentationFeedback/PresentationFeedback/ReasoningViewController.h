@@ -7,10 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Constants.h"
 
 @interface ReasoningViewController : UIViewController
 {
     bool checked;
 }
+
+- (IBAction)checkButton:(id)sender;
 
 @end

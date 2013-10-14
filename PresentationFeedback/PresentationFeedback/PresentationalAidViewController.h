@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Constants.h"
 
 @interface PresentationalAidViewController : UIViewController
+{
+    bool checked;
+}
+
+- (IBAction)checkButton:(id)sender;
+
 
 @end

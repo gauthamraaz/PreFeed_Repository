@@ -20,7 +20,7 @@
 @property (nonatomic, strong) NSMutableArray *quickGrades;
 
 - (IBAction)checkButton:(id)sender;
-
+- (IBAction)checkQuickGrade:(id)sender;
 
 
 @end

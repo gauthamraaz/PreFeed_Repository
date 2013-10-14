@@ -7,12 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Constants.h"
 
 @interface ConclusionViewController : UIViewController
 {
     bool checked;
 }
-@property (weak, nonatomic) IBOutlet UIButton *CheckBoxButton;
-- (IBAction)checkBox:(id)sender;
+
+- (IBAction)checkButton:(id)sender;
 
 @end

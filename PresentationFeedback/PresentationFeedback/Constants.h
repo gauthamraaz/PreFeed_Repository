@@ -11,4 +11,9 @@
 
 
 NSMutableDictionary *preCommentsDic;
+NSMutableDictionary *quickGradesDic;
+NSMutableArray *pointsArray;
+NSMutableArray *commentsArray;
 AppDelegate *appDelegate;
+NSString *speechType;
+

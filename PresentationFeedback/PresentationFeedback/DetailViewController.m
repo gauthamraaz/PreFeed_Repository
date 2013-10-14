@@ -29,6 +29,11 @@
 
 - (void)viewDidLoad
 {
+    // Initializing..
+    
+    
+    speechType = @"Informative";
+    
     [super viewDidLoad];
     checked = NO;
     
@@ -44,10 +49,8 @@
     appDelegate = (AppDelegate*)[[UIApplication sharedApplication] delegate];
         
     stmt = @"INSERT INTO Student (StuLastName,StuFirstName,Section) VALUES ('Theo','raaz','Section007')";
-//    sqlite3_open([[appDelegate getDBPath] UTF8String], &database);
-    
+        
     sqlite3_exec(database, [stmt  UTF8String],NULL, NULL, NULL);
-//        sqlite3_exec(<#sqlite3 *#>, <#const char *sql#>, <#int (*callback)(void *, int, char **, char **)#>, <#void *#>, <#char **errmsg#>)
     sqlite3_close(database);
     }
     
@@ -85,6 +88,50 @@
         [button setSelected:YES];
     }
     
+    for (int k=0; k<[quickGradesDic count]; k++) {
+        
+        NSString *index = [[quickGradesDic allKeys] objectAtIndex:k];
+        NSLog(@"index  : %@",index);
+        
+        //fething the selected values and prepopulating them
+        UILabel *label1 = (UILabel*)[self.view viewWithTag:100+[index integerValue]];
+        [label1 setText:[quickGradesDic objectForKey:index]];
+
+    }
+    
+    //retrieving Score and written comments
+    UITextField *textF = (UITextField*)[self.view viewWithTag:900];
+    
+    if([pointsArray count] !=0)
+        textF.text = [pointsArray objectAtIndex:textF.tag - 900];
+    
+    UITextView *textV = (UITextView*)[self.view viewWithTag:800];
+    
+    if([commentsArray count] !=0)
+        textV.text = [commentsArray objectAtIndex:textV.tag - 800];
+    
+    // Retrieving Max points for grading from database
+    
+    UILabel *pointsLabel = (UILabel*)[self.view viewWithTag:901];
+        
+    sqlite3_open([[appDelegate getDBPath] UTF8String], &database);
+    
+    NSString *query = [NSString stringWithFormat:@"SELECT MaxPoints from Modules where ModuleName = 'Introduction' and SpeechType = '%@'",speechType];
+	
+    sqlite3_stmt *statement;
+    
+	sqlite3_prepare_v2(database, [query UTF8String], -1, &statement, nil);
+    
+    while (sqlite3_step(statement) == SQLITE_ROW)	{
+        
+            pointsLabel.text = [NSString stringWithFormat:@"/ %d Pts",sqlite3_column_int(statement, 0)];
+            
+    }
+    sqlite3_reset(statement);
+    sqlite3_finalize(statement);
+    statement = nil;
+    sqlite3_close(database);
+   
     
   //  _QuickGradeLabel.text = grades;
     
@@ -132,6 +179,15 @@
 {
     NSLog(@"Gone");
     
+    UITextField *pts = (UITextField*)[self.view viewWithTag:900];
+    [pointsArray setObject:pts.text atIndexedSubscript:pts.tag - 900];
+    
+    UITextView *writtenComments = (UITextView*)[self.view viewWithTag:800];
+    [commentsArray setObject:writtenComments.text atIndexedSubscript:writtenComments.tag-800];
+        
+    
+    NSLog(@"%@",quickGradesDic);
+   
 }
 -(void) viewDidAppear:(BOOL)animated
 {
@@ -170,6 +226,39 @@ NSLog(@"preCommentsDic : %@", preCommentsDic);
 
 }
 
+- (IBAction)checkQuickGrade:(id)sender
+{
+    
+    UIButton *quickGradeButton = (UIButton*)sender;
+        
+    UILabel *quickLabel = (UILabel*)[self.view viewWithTag:100+(long)quickGradeButton.tag/1000];
+    
+    NSLog(@"Tag : %ld",(long)quickGradeButton.tag);
+    
+     long tag = (long)quickGradeButton.tag;
+    
+    if(tag % 1000 == 1)
+    {
+        quickLabel.text = @"0";
+        [quickGradesDic setObject:@"0" forKey:[NSString stringWithFormat:@"%ld",(long)quickGradeButton.tag/1000]];
+        
+    }
+    else if (tag % 1000 == 2)
+    {
+        quickLabel.text = @"1";
+        [quickGradesDic setObject:@"1" forKey:[NSString stringWithFormat:@"%ld",(long)quickGradeButton.tag/1000]];
+        
+    }
+    else
+    {
+        quickLabel.text = @"-1";
+        [quickGradesDic setObject:@"-1" forKey:[NSString stringWithFormat:@"%ld",(long)quickGradeButton.tag/1000]];
+        
+    }
+    
+    
+    
+}
 
 
 @end
